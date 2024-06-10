@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ece5f0;
+}
+#area-cabecalho{
+    background-color: #BCED09;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu{
+    padding: 10px;
+    border-radius: 4px solid #58595F ;
+    padding-left: 20px;
+}
+#area-principal{
+    width: 920px;
+    margin: 0;
+    padding: 15px;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-laterarl{
+    width: 240px;
+    float: right;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ece5f0;
+}
+.conteudo-lateral{
+    background-color: #ece5f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px solid #3a3a3a;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #858585;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #816497;
+}
+a:hover{
+    text-decoration: none;
+}
+#area-cabecalho a:visited{
+    color: #3a3a3a;
+    padding: 12px;
+}
+#area-cabecalho a:hover{
+    color: #858585;
+    background-color: #BCED09;
+    text-decoration: none;
+}
+
+h1{
+    color: #3a3a3a;
+    font-size: 45px;
+}
+h2{
+    color: #3a3a3a;
+}
+h3{
+    color: #37393A;
+    background-color: #c8c8c8;
+    padding: 5px;
+}
+.branco{
+    color: #ece5f0;
+}
+.data-postagem{
+    font-size: 12px;
+    border-bottom: 1px solid #ece5f0;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    display: block;
+}
